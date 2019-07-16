@@ -83,7 +83,7 @@ RUN chmod +x /usr/local/bin/* /etc/s6.d/*/* /etc/s6.d/.s6-svscan/* \
 
 VOLUME /data /flood-db
 
-EXPOSE 3000 49184 49184/udp
+EXPOSE 49184 49184/udp
 
 LABEL description="BitTorrent client with WebUI front-end" \
       rtorrent="rTorrent BiTorrent client v$RTORRENT_VER" \
